@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slideshow</title>
+
+	<style type="text/css">
+
+		.slideshow img{
+			width: 50%;
+		}
+
+		.slideshow {
+			position: relative;
+			margin-left: 25%;
+		}
+
+		.slideNumber {
+			position: absolute;
+			top: 0;
+			color: red;
+			font-weight: bolder;
+		}
+
+		.slideTitle {
+			position: absolute;
+			bottom: 5px;
+			width: 50%;
+			text-align: center;
+			color: red;
+			font-weight: bolder;
+		}
+
+		.next {
+  			animation-name: slowmo;
+  			animation-duration: 2s;
+		}
+
+		@keyframes slowmo {
+  			from {opacity: .3} 
+  			to {opacity: 1}
+		}
+	</style>
+</head>
+<body>
+	<div class="slideshow">
+		<div class="autoSlide next">
+			<div class="slideNumber">1 / 4</div>
+			<img src="https://cdn.steemitimages.com/DQmY7yqq3xNwwARAScWGqur7dRwRGcjpau4vbZhN9izWoBw/2%20(17).jpg">
+			<div class="slideTitle">Bird</div>
+		</div>
+
+		<div class="autoSlide next">
+			<div class="slideNumber">2 / 4</div>
+			<img src="https://cdn.steemitimages.com/DQmdoQKNgQCHE7Y24tfuYUP2F6zTX3NaWc9EbJy7DmXSALd/2-912-idea_wallpaper_007.jpg">
+			<div class="slideTitle">Octopus</div>
+		</div>
+
+		<div class="autoSlide next">
+			<div class="slideNumber">3 / 4</div>
+			<img src="https://cdn.steemitimages.com/DQmS1oaVnwAi7d6qXrii8ZniEECi8KTv8RJ4inCX7h7YnjE/2-913-idea_wallpaper_008.jpg">
+			<div class="slideTitle">Crab</div>
+		</div>
+
+		<div class="autoSlide next">
+		    <div class="slideNumber">4 / 4</div>
+		    <img src="https://cdn.steemitimages.com/DQmfU3XuNX1X75x8RqthuFfYhSbWy5pamTEpUqzGCSQrmEA/6%20(17).jpg">
+		    <div class="slideTitle">Cockroach</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		var slideShowIndex = 0;
+
+		function mySlideShow() {
+		  var i;
+		  var autoSlideshow = document.getElementsByClassName("autoSlide");
+		  for (i = 0; i < autoSlideshow.length; i++) {
+		    autoSlideshow[i].style.display = "none";  
+		  }
+		  slideShowIndex++;
+		  if (slideShowIndex > autoSlideshow.length){slideShowIndex = 1}    
+		  autoSlideshow[slideShowIndex -1].style.display = "block";  
+		  setTimeout(mySlideShow, 2000);
+		}
+		mySlideShow();
+
+	</script>
+</body>
+</html>

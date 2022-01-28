@@ -1,0 +1,146 @@
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+	.boiler[_ngcontent-c10] {
+    width: 9.6in;
+    min-height: 11in;
+    max-width: 100%;
+    box-shadow: 0 7px 17px -2px #dbdbdb;
+    padding: 20px 50px;
+    margin: auto;
+    background-color: #FFF;
+}
+
+section.main-content.col-12 {
+	background-color: transparent;
+	margin: 1%;
+	text-align: justify;
+	border-radius: 5px;
+	width: 98%;
+}
+
+.boiler[_ngcontent-c10] *[_ngcontent-c10] {
+    line-height: 24px;
+    text-indent: 0;
+}
+
+/*div {
+    position: relative;
+    width: 100%;
+}*/
+h1[_ngcontent-c19] {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+*[_ngcontent-c19] {
+    line-height: 24px;
+    text-indent: 0;
+    font-family: 'times new roman,times,serif';
+}
+p[_ngcontent-c19] {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+*[_ngcontent-c19] {
+    line-height: 24px;
+    text-indent: 0;
+    font-family: 'times new roman,times,serif';
+}
+.boiler-field[_ngcontent-c19]{
+    min-height: 22px;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+    top: 1px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 0 5px;
+    margin: 1px 0;
+    line-height: 22px;
+}
+
+h2[_ngcontent-c19] {
+    margin-top: 2em;
+    font-size: large;
+}
+
+ol.clauses[_ngcontent-c19], ol.parties[_ngcontent-c19], ol.recitals[_ngcontent-c19], ol.clauses[_ngcontent-c19] ol[_ngcontent-c19], ol.parties[_ngcontent-c19] ol[_ngcontent-c19], ol.recitals[_ngcontent-c19] ol[_ngcontent-c19] {
+    margin-left: 0;
+    padding: 0 0 0 2em;
+}
+.firstList[_ngcontent-c19] {
+    counter-reset: chapter;
+}
+ol.clauses[_ngcontent-c19] > li[_ngcontent-c19], ol.parties[_ngcontent-c19] > li[_ngcontent-c19] {
+    list-style-type: none;
+    counter-increment: chapter;
+}
+ol.clauses[_ngcontent-c19] li[_ngcontent-c19], ol.parties[_ngcontent-c19] li[_ngcontent-c19], ol.recitals[_ngcontent-c19] li[_ngcontent-c19] {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+table[_ngcontent-c19] {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+    border: black solid 1px !important;
+    }
+    table.definitions[_ngcontent-c19] tr[_ngcontent-c19]:nth-child(odd), div.schedule[_ngcontent-c19] table[_ngcontent-c19] tr[_ngcontent-c19]:nth-child(odd) {
+    background-color: #EEEEEE;
+}
+table.normal[_ngcontent-c19] tr[_ngcontent-c19], table.definitions[_ngcontent-c19] tr[_ngcontent-c19] {
+    border-right: 1px solid black;
+}
+table.definitions[_ngcontent-c19] td[_ngcontent-c19], table.definitions[_ngcontent-c19] th[_ngcontent-c19], div.schedule[_ngcontent-c19] table[_ngcontent-c19] td[_ngcontent-c19], div.schedule[_ngcontent-c19] table[_ngcontent-c19] th[_ngcontent-c19] {
+    border: 1px solid black;
+    border: 1px solid black;
+    padding: 5px;
+    vertical-align: top;
+    text-align: left;
+}
+ol.clauses[_ngcontent-c19] > li[_ngcontent-c19] > ol[_ngcontent-c19] > li[_ngcontent-c19], ol.clauses[_ngcontent-c19] > li[_ngcontent-c19] > div[_ngcontent-c19] > ol[_ngcontent-c19] > li[_ngcontent-c19] {
+    list-style: lower-alpha;
+}
+ol.clauses[_ngcontent-c19] > li[_ngcontent-c19], ol.parties[_ngcontent-c19] > li[_ngcontent-c19] {
+    list-style-type: none;
+    counter-increment: chapter;
+}
+ol.clauses[_ngcontent-c19] > li[_ngcontent-c19]:before, ol.parties[_ngcontent-c19] > li[_ngcontent-c19]:before {
+    content: counter(chapter) ". ";
+}
+
+
+ol.parties[_ngcontent-c19] > li[_ngcontent-c19]:before, ol.clauses[_ngcontent-c19] > li[_ngcontent-c19]:before {
+    width: 2.3em;
+    margin-left: -2em;
+    display: inline-block;
+}
+
+ol.clauses[_ngcontent-c19] li[_ngcontent-c19] ol[_ngcontent-c19] li {
+    list-style: lower-alpha;
+}
+table.withBorders[_ngcontent-c19] {
+    width: 100%;
+    border: none 0;
+    border-spacing: 0;
+}
+
+table[_ngcontent-c19] {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-collapse: collapse;
+}
+
+table.withBorders[_ngcontent-c19] th[_ngcontent-c19], table.withBorders[_ngcontent-c19] td[_ngcontent-c19] {
+    border: black solid 1px;
+    padding: 5px;
+}
